@@ -13,4 +13,3 @@ end
 service node['apache']['service_name'] do
   action [:enable, :start]
 end
-
